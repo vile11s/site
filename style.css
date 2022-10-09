@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+img.logo {
+    object-fit: cover;
+    min-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
