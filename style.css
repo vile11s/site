@@ -4,10 +4,10 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: start;
 }
 
-img {
+img.bird {
     max-width: 150px; min-width: 150px;
     max-height: 150px; min-height: 150px;
     border-radius: 8px;
@@ -93,11 +93,14 @@ img.hero {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 150px;
+    padding: 2em;
 
 }
 
 .middleflex {
     display: flex;
+    justify-content: center;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -109,5 +112,27 @@ h2.middle1 {
 }
 
 p.bird {
+    color: #1f2937;
+}
+
+.middle2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.sign {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: end;
     color: #1f2937;
 }
